@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link,
+.nav-item,
+.logo 
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #6096B4;
+    font-family: 'Playfair Display', serif; 
+}
+
+.nav-item {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #6096B4;
+}
+
+.bg-images {
+    width: 50%;
+}
+
+#home {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.column {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.description-title{
+    font-size: 3rem;
+    color: #6096B4;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem; 
+}
+
+.description-inner {
+    color: #6096B4;
+    width: 100%;
+    line-height: 50px;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.btn-more {
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    opacity: 0.8;
+    transition: 0.5s;
+    text-decoration: none;
+    color:#000;
+}
+
+.btn-more:hover {
+    opacity: 1;
+    color:#6096B4;
+}
