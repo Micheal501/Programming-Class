@@ -70,13 +70,15 @@ nav {
 }
 
 .description-title{
+    padding: 2rem;
     font-size: 3rem;
     color: #6096B4;
     font-family: 'Playfair Display', serif;
-    margin-bottom: 2rem; 
+    margin-bottom: 1.4rem; 
 }
 
-.description-inner {
+.description-inner {    
+    padding: 1.4rem;
     color: #6096B4;
     width: 100%;
     line-height: 50px;
@@ -85,6 +87,7 @@ nav {
 }
 
 .btn-more {
+    padding: 1.4rem;
     font-size: 2rem;
     cursor: pointer;
     border: none;
@@ -98,4 +101,53 @@ nav {
 .btn-more:hover {
     opacity: 1;
     color:#6096B4;
+}
+
+#tutors {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    height: 40vh;
+}
+
+.tutors-img {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.tutor-card {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.tutor-names {
+    text-align: center;
+}
+
+#partners {
+    text-align: center;
+}
+
+.partner-list {
+    width: 100%;
+    height: 40vh;
+}
+
+.partners-card {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.partners-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
 }
